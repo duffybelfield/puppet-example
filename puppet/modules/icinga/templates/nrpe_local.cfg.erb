@@ -1,0 +1,4 @@
+command[check_nrpe_daemon]=/bin/echo "NRPE OK"
+command[check_procs]=/usr/lib/nagios/plugins/check_procs -w 250 -c 400
+command[check_memory]=perl /usr/lib/nagios/plugins/check_memory.pl -w 30% -c 15%
+command[check_all_disks]=/usr/lib/nagios/plugins/check_disk -w '20%' -c '10%' -e
