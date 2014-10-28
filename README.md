@@ -1,4 +1,4 @@
 puppet-example
-==============
+=============
 
-Puppet Example
+Puppet with Icinga example
